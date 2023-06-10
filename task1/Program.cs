@@ -8,10 +8,10 @@ Console.WriteLine("Введите число B:");
 string? B = Console.ReadLine()!;
 int BInt = Convert.ToInt32(B);
 if (AInt > BInt) {
-    Console.WriteLine("Число А большее");
-    Console.WriteLine("Число B меньшее");
+    Console.WriteLine("Число А большее числа B");
+    Console.WriteLine("Число B меньшее числа A");
 }
 else {
-    Console.WriteLine("Число B большее");
-    Console.WriteLine("Число A меньшее");
+    Console.WriteLine("Число B большее числа A");
+    Console.WriteLine("Число A меньшее числа B");
 }
